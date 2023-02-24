@@ -9,7 +9,7 @@ socket.bind("tcp://*:5555")
 
 def get_alternative_equipment(equipment):
     
-    alternative_equipment = {"treadmill": "stationary bikes", "Kettlebells": "Dumbbell", "Ellipticals": "Assault Bike"}
+    alternative_equipment = {"treadmill": "stationary bikes", "Kettlebells": "Dumbbell", "Ellipticals": "Assault Bike", "Pull-Up Bar": "Resistance Band", "Ankle Strap": "Ankle bands"}
     return alternative_equipment.get(equipment, " ")
 
 
