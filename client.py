@@ -2,7 +2,7 @@ import zmq
 
 context = zmq.Context()
 
-print("Connecting to the Busy Gym server...")
+print("Connecting to the Busy Gym server....")
 socket = context.socket(zmq.REQ)
 socket.connect("tcp://localhost:5555")
 print(f"Current libzmq version is {zmq.zmq_version()}")
